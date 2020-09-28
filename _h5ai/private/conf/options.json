@@ -1,4 +1,4 @@
-/* h5ai v0.29.0 - https://larsjung.de/h5ai/ */
+/* h5ai v0.29.2 - https://larsjung.de/h5ai/ */
 {
     /*
     Password hash.
@@ -126,7 +126,7 @@
         "enabled": true,
         "type": "php-tar",
         "packageName": null,
-        "alwaysVisible": true
+        "alwaysVisible": false
     },
 
     /*
@@ -143,7 +143,7 @@
     - ignorecase: boolean, ignore case
     */
     "filter": {
-        "enabled": true,
+        "enabled": false,
         "advanced": true,
         "debounceTime": 100,
         "ignorecase": true
@@ -158,7 +158,7 @@
     - type: string, "php" (sloooow) or "shell-du" (sloow)
     */
     "foldersize": {
-        "enabled": false,
+        "enabled": true,
         "type": "php"
     },
 
@@ -181,7 +181,7 @@
     - qrColor: string, QR-Code fill color
     */
     "info": {
-        "enabled": false,
+        "enabled": true,
         "show": false,
         "qrcode": true,
         "qrFill": "#999",
